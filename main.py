@@ -1,8 +1,8 @@
 from __future__ import annotations
 from fastapi import FastAPI, HTTPException, Query
 from typing import Any
-from .db import connect, init_db
-from .models import (
+from db import connect, init_db
+from models import (
     AuthorIn, AuthorOut,
     LibraryIn, LibraryOut,
     BookIn, BookOut,
